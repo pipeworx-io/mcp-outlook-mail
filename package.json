@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-outlook-mail",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Outlook Mail (Microsoft 365) MCP Pack",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-outlook-mail": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "outlook-mail"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-outlook-mail"
+    "url": "git+https://github.com/pipeworx-io/mcp-outlook-mail.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-c755236426cfadb0b86662b042b9852bc8b599c4771c8b388c9ea4aee1dfc09a",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
