@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-outlook-mail",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Outlook Mail (Microsoft 365) MCP Pack",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-c755236426cfadb0b86662b042b9852bc8b599c4771c8b388c9ea4aee1dfc09a",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-a2244bc3992cb47e37cc5d05edd02f48fbaf54b74b508ddded77bdb280b105c9",
+    "sourceCommit": "4d51421bd010ad9a322c2245b70b401604912eff"
   }
 }
